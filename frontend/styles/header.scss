@@ -1,0 +1,29 @@
+@font-face {
+  src: url(../Freckle_Face/FreckleFace-Regular.ttf);
+  font-family: freckle;
+}
+
+.headmain {
+  display: flex;
+  height: 45px;
+  width: 100vw;
+  background-color: #2e666a12;
+  position: fixed;
+  z-index: 2;
+
+  justify-content: center;
+  justify-content: space-between;
+
+  align-items: center;
+
+  .nav {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 30px;
+    font-family: freckle;
+    width: 100px;
+    background-color: transparent;
+    color: #f9f1ae;
+  }
+}
